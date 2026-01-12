@@ -1,0 +1,12 @@
+Type,Name,SamAccountName,Path,Password,Group,Scope
+OU,Alumnos,,"DC=grupo2,DC=local",,,
+OU,Profesores,,"DC=grupo2,DC=local",,,
+OU,Administracion,,"DC=grupo2,DC=local",,,
+GROUP,Grupo_Alumnos,,"OU=Alumnos,DC=grupo2,DC=local",,,Global
+GROUP,Grupo_Profesores,,"OU=Profesores,DC=grupo2,DC=local",,,Global
+USER,Yeray Gutierrez,ygutierrez,"OU=Alumnos,DC=grupo2,DC=local",Usuario@1,Grupo_Alumnos,
+USER,Pablo Lopez Cagigal,plopez,"OU=Alumnos,DC=grupo2,DC=local",Usuario@1,Grupo_Alumnos,
+USER,Luis Martin,lmartin,"OU=Profesores,DC=grupo2,DC=local",Usuario@1,Grupo_Profesores,
+USER,Marta Ruiz,mruiz,"OU=Profesores,DC=grupo2,DC=local",Usuario@1,Grupo_Profesores,
+USER,Carlos Diaz,cdiaz,"OU=Administracion,DC=grupo2,DC=local",Usuario@1,Grupo_Profesores,
+USER,Laura Gomez,lgomez,"OU=Administracion,DC=grupo2,DC=local",Usuario@1,Grupo_Alumnos,
